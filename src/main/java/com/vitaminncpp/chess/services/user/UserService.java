@@ -1,17 +1,17 @@
 package com.vitaminncpp.chess.services.user;
 
-import com.vitaminncpp.chess.dto.user.UserDto;
+import com.vitaminncpp.chess.dto.user.UserInfoDto;
 import org.springframework.stereotype.Service;
 
 @Service
 
 public class UserService implements IUserService {
-    public UserDto saveUser() {
-        return new UserDto();
+    public UserInfoDto saveUser() {
+        return new UserInfoDto();
     }
 
     @Override
-    public UserDto createUser(UserDto user) {
+    public UserInfoDto createUser(UserInfoDto user) {
         return null;
     }
 }
